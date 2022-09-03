@@ -13,9 +13,9 @@ const Product = ({ product }) => {
           />
         </div>
       </Link>
-      <h2>Title: {title}</h2>
-      <p>Description: {description}</p>
-      <p>Price: {price}</p>
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <p>Price: SAR{price}</p>
     </ProductStyles>
   );
 };

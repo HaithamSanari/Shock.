@@ -54,7 +54,7 @@ const ProductDetails = () => {
         <p>{description}</p>
 
         <Quantity>
-          <span>{price}</span>
+          <span>SAR{price}</span>
           <button onClick={decreaseQty}>
             <AiFillMinusCircle />
           </button>
