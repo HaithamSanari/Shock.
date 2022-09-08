@@ -6,6 +6,19 @@ export const DetailsStyle = styled.div`
   img {
     width: 40%;
   }
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    img {
+      width: 50%;
+    }
+  }
+  @media (max-width: 480px) {
+    img {
+      width: 80%;
+    }
+  }
 `;
 
 export const ProductInfo = styled.div`
@@ -18,6 +31,14 @@ export const ProductInfo = styled.div`
     font-weight: medium;
     padding: 0.5rem 1rem;
     cursor: pointer;
+  }
+
+  @media (max-width: 767px) {
+    width: 50%;
+  }
+
+  @media (max-width: 480px) {
+    width: 80%;
   }
 `;
 

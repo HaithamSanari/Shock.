@@ -70,6 +70,9 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   /* justify-content: center; */
+  @media (max-width: 767px) {
+    margin: 0;
+  }
 `;
 
 const Card = styled(motion.div)`
@@ -98,6 +101,9 @@ const Card = styled(motion.div)`
     margin-top: 2rem;
     margin-bottom: 1rem;
     cursor: pointer;
+  }
+  @media (max-width: 480px) {
+    padding: 3rem 2rem;
   }
 `;
 const Address = styled.div`

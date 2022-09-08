@@ -1,12 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 html,
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0rem 10%;
   background: #f1f1f1;
   --primary: #2d2d2d;
   --secondary: #535353;
+}
+@media (max-width: 1220px) {
+  html,
+  body {
+    margin: 0rem 5%;
+  }
 }
 
 h1 {
